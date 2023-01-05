@@ -6,6 +6,7 @@ import { CartDetail } from "../components/cart";
 
 export default function Home({ products }) {
   const { addItem } = useShoppingCart();
+
   return (
     <main className="mgt">
       <Head>
